@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "321191749552",
+    "firebase_url": "https://loginone-d52ec.firebaseio.com",
+    "project_id": "loginone-d52ec",
+    "storage_bucket": "loginone-d52ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321191749552:android:ddd03035ab011821525875",
+        "android_client_info": {
+          "package_name": "com.example.loginone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321191749552-abt4hpuv0irudusffrfp27avrfrga2bi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loginone",
+            "certificate_hash": "372187120d90746793c9424da2d5feb559ac7c1f"
+          }
+        },
+        {
+          "client_id": "321191749552-4c7i1vg9cc7s7s40t6a2tdi71mrdn8ne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9vFOwZjI-w7rDy6prk6Z5-Zm3j7wErlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321191749552-4c7i1vg9cc7s7s40t6a2tdi71mrdn8ne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

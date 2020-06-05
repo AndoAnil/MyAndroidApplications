@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/loginemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.263"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <EditText
+        android:id="@+id/loginpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginemail"
+        app:layout_constraintVertical_bias="0.091"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/login1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginpass"
+        app:layout_constraintVertical_bias="0.035"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/createAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If you have not account? Create account"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login1"
+        app:layout_constraintVertical_bias="0.109"
+        tools:layout_editor_absoluteX="16dp"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
